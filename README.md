@@ -1,11 +1,35 @@
 # MODO Assemblies
 Various modo assemblies we've built at [Ingenuity](http://ingenuitystudios.com)
 
+## Installation
+1. Click Download ZIP to the right
+2. In MODO click System > Open Content Folder
+3. From there browse to Assets > Assemblies
+4. Extract fitFloat.lxp and joystick.lxp to this folder
+5. Hit F6 to open the presets dialog
+6. Both presets should be under assemblies
+
 ## fitFloat
 Fits a float parameter to a given range.  Similar to the fit node in Houdini or Rescale in Softimage.  Check out joystickAndFixFloat.lxo in example scenes.
 
+Use:
+
+1. Hit F6 to open the presets dialog
+2. Navigate to Assemblies
+3. Drag fitFloat in to the schematic
+4. Remap params!
+
 ## joystick
 Simple joystick for rigs.  Most of the params are in the User Channels.  The label and color can be changed under Display.  Check out joystickAndFixFloat.lxo in example scenes.
+
+Use:
+
+1. Hit F6 to open the presets dialog
+2. Navigate to Assemblies
+3. Drag joystick into a 3D viewport
+4. Select the frame then select User Channels
+5. Drag horizontalValue and verticalValue into the schematic view
+6. Connect them to things!
 
 #####Params (located on the frame):
 __joystickType__
