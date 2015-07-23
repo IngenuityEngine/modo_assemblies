@@ -20,7 +20,7 @@ Use:
 4. Remap params!
 
 ## joystick
-Simple joystick for rigs.  Most of the params are in the User Channels.  The label and color can be changed under Display.  Check out joystickAndFixFloat.lxo in example scenes.
+A simple joystick for rigging.  It has box, horizontal, and vertical  modes with a constrained puck for animation.  The horizontal and vertical values are output for linking in Schematic View.  Most of the params are in the User Channels.  The label and color can be changed under Display.  Check out joystickAndFixFloat.lxo in example scenes.
 
 Use:
 
